@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; /* Centra los elementos horizontalmente */
+    height: 100vh; /* Full height */
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px; 
+    margin-right: 150px;
+}
+
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px; 
+    margin-right: 210px;
+}
+
+
+#nav {
+    position: absolute;  /* Posición absoluta para situarla en la página */
+    top: 0;              /* Alineada con la parte superior de la pantalla */
+    left: 80%;             /* Alineada con la parte izquierda de la pantalla */
+    list-style: none;    /* Eliminar los puntos de lista */
+    padding: 0;          /* Eliminar relleno */
+    margin: 0;           /* Eliminar márgenes */
+    display: flex;       /* Usar flexbox para organizar los elementos */
+    justify-content: space-arround; 
+}
+#nav li {
+    margin: 30px 10px; /* Espaciado entre los elementos */
+}
+
+#nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#nav a:hover {
+    color: #4A90E2;
+}
+
+/* Contenedor del formulario de login */
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%;
+    max-width: 400px;
+    margin-top: 80px; /* Espacio desde el título hasta el formulario */
+    margin-bottom: 30px; /* Espacio debajo del formulario */
+}
+
+/* Estilo para las etiquetas del formulario */
+form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+    display: block;
+}
+
+/* Estilo para los campos de entrada */
+form input[type="text"], form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form input[type="text"]:focus, form input[type="password"]:focus {
+    border-color: #4A90E2;
+    outline: none;
+}
+
+/* Estilo para los mensajes de error */
+form .error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el botón de submit */
+form input[type="submit"] {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #357ABD;
+}
+
+/* Estilo para el enlace de registro */
+form p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+form a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}

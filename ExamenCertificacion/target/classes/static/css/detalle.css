@@ -1,0 +1,107 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; /* Centra los elementos horizontalmente */
+    height: 100vh; /* Full height */
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px; 
+    margin-right: 240px;
+}
+
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px; 
+    margin-right: 210px;
+}
+
+
+#nav {
+    position: absolute;  /* Posición absoluta para situarla en la página */
+    top: 0;              /* Alineada con la parte superior de la pantalla */
+    left: 70%;             /* Alineada con la parte izquierda de la pantalla */
+    list-style: none;    /* Eliminar los puntos de lista */
+    padding: 0;          /* Eliminar relleno */
+    margin: 0;           /* Eliminar márgenes */
+    display: flex;       /* Usar flexbox para organizar los elementos */
+    justify-content: space-arround; 
+}
+#nav li {
+    margin: 30px 10px; /* Espaciado entre los elementos */
+}
+
+#nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#nav a:hover {
+    color: #4A90E2;
+}
+
+/* Estilo de la lista */  
+ul {  
+    list-style: none; /* Eliminar puntos de lista */  
+    padding: 0;  
+    background-color: white; /* Fondo blanco */  
+    border-radius: 8px; /* Bordes redondeados */  
+    padding: 20px; /* Espacio interno */  
+    width: 100%; /* Ancho completo */  
+    max-width: 400px; /* Máximo ancho del contenedor */  
+}  
+
+/* Estilo de los elementos de la lista */  
+li {  
+    margin-bottom: 10px; /* Espaciado entre elementos de la lista */  
+    font-size: 16px; /* Tamaño de fuente */  
+    color: #333; /* Color del texto */  
+}  
+
+/* Estilo de la letra del poema */  
+li.letra {  
+    margin-top: 10px; /* Espacio adicional para la letra */  
+    font-style: italic; /* Estilo cursivo */  
+    color: #555; /* Color ligeramente más oscuro */  
+}  
+
+/* Estilo del botón de eliminar */  
+button {  
+    background-color: #e74c3c; /* Color de fondo rojo */  
+    color: white; /* Color del texto */  
+    border: none; /* Sin borde */  
+    border-radius: 4px; /* Bordes redondeados */  
+    padding: 10px 20px; /* Espaciado interno */  
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */  
+    font-size: 16px; /* Tamaño de fuente */  
+    margin-top: 20px; /* Margen superior */  
+    transition: background-color 0.3s; /* Transición suave para el hover */  
+}  
+
+button:hover {  
+    background-color: #c0392b; /* Color de fondo más oscuro al pasar el mouse */  
+}  
+
+/* Estilo del enlace */  
+a {  
+    color: #3498db; /* Color del enlace */  
+    text-decoration: none; /* Sin subrayado */  
+    margin-top: 20px; /* Espacio superior */  
+}  
+
+a:hover {  
+    text-decoration: underline; /* Subrayar al pasar el ratón */  
+}  

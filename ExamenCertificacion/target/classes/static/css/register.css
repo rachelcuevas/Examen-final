@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    height: 100vh; /* Full height */
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px; 
+    margin-right: 210px;
+}
+
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px; 
+    margin-right: 210px;
+}
+
+
+#nav {
+    position: absolute;  
+    top: 0;             
+    left: 80%;            
+    list-style: none;    
+    padding: 0;         
+    margin: 0;          
+    display: flex;     
+    justify-content: space-arround; 
+}
+#nav li {
+    margin: 30px 10px; 
+}
+
+#nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#nav a:hover {
+    color: #4A90E2;
+}
+
+
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    max-width: 400px;
+    margin-top: 80px; 
+    margin-bottom: 30px; 
+}
+
+
+form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+    display: block;
+}
+
+
+form input[type="text"], form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form input[type="text"]:focus, form input[type="password"]:focus {
+    border-color: #4A90E2;
+    outline: none;
+}
+
+
+form .error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+form input[type="submit"] {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #357ABD;
+}
+
+
+.separator {  
+    border: 0;  
+    height: 1px; /* Alto de la línea */  
+    background-color: #e2e2e2; /* Color de la línea */  
+    margin: 20px 0; /* Espaciado superior e inferior */  
+}  

@@ -1,0 +1,96 @@
+@charset "UTF-8";
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f4f4f4; /* Color de fondo claro */  
+    margin: 0;  
+    padding: 20px;  
+}  
+
+/* Estilo de los encabezados */  
+h1 {  
+    font-size: 36px; /* Tamaño grande para el título principal */  
+    text-align: center; /* Centrar el título principal */  
+    margin-bottom: 20px;  
+}  
+
+h2 {  
+    font-size: 28px; /* Tamaño de fuente para el subtítulo */  
+    text-align: center; /* Centrar el subtítulo */  
+    margin-bottom: 30px;  
+}  
+
+/* Estilo de navegación */  
+#nav {  
+    display: flex;  
+    justify-content: center; /* Centrar el menú de navegación */  
+    list-style: none; /* Eliminar puntos de lista */  
+    padding: 0;  
+    margin-bottom: 30px; /* Espacio debajo de la navegación */  
+}  
+
+#nav li {  
+    margin: 0 15px; /* Espacio entre elementos de la lista */  
+}  
+
+#nav a {  
+    text-decoration: none; /* Sin subrayado */  
+    color: #333; /* Color del texto */  
+    font-weight: bold; /* Negrita */  
+}  
+
+#nav a:hover {  
+    color: #4A90E2; /* Color al pasar el mouse */  
+}  
+
+/* Estilo del formulario */  
+form {  
+    background-color: white; /* Fondo blanco para el formulario */  
+    border-radius: 8px; /* Bordes redondeados */  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */  
+    padding: 20px; /* Espaciado interno */  
+    max-width: 400px; /* Ancho máximo */  
+    margin: auto; /* Centrar el formulario */  
+}  
+
+/* Estilo de las etiquetas */  
+form label {  
+    display: block; /* Cada etiqueta en su línea */  
+    margin-bottom: 5px; /* Espacio entre etiqueta y campo */  
+    font-weight: bold; /* Negrita para las etiquetas */  
+    font-size: 16px; /* Tamaño de fuente */  
+}  
+
+/* Estilo de los campos de entrada */  
+form input[type="text"],  
+form textarea {  
+    width: 100%; /* Ancho completo para campos de entrada */  
+    padding: 10px;  
+    border: 1px solid #ccc; /* Borde gris */  
+    border-radius: 4px; /* Bordes redondeados */  
+    margin-bottom: 10px; /* Espaciado entre campos */  
+}  
+
+/* Estilo de mensajes de error */  
+.error {  
+    color: red; /* Color rojo para mensajes de error */  
+    font-size: 14px; /* Tamaño de fuente menor para errores */  
+    margin-top: -5px; /* Ajuste de margen para errores */  
+    margin-bottom: 10px; /* Espacio entre error y campo */  
+}  
+
+/* Estilo del botón de agregar poema */  
+input[type="submit"] {  
+    background-color: #4A90E2; /* Color de fondo azul */  
+    color: white; /* Color de texto blanco */  
+    border: none; /* Sin borde */  
+    border-radius: 4px; /* Bordes redondeados */  
+    padding: 10px 20px; /* Espaciado interno */  
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */  
+    font-size: 16px; /* Tamaño de fuente */  
+    transition: background-color 0.3s; /* Transición suave para el hover */  
+    margin-top: 20px; /* Espacio superior para el botón */  
+}  
+
+input[type="submit"]:hover {  
+    background-color: #357ABD; /* Color más oscuro al pasar el mouse */  
+}  
